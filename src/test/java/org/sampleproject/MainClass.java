@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class MainClass {
 	public static void main(String[] args) {
 		System.out.println("sample project 2");
-
+			System.out.println("test1");
 				WebDriverManager.chromedriver().setup();
 				WebDriver driver= new ChromeDriver();
 				driver.get("https://www.facebook.com/");
